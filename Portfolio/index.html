@@ -1,14 +1,26 @@
+<!--
+;============================================
+; Title:  Portfolio
+; Author: Don Cousar
+; Date:   24 March 2019
+; Description: Don Cousar's Portfolio
+;===========================================
+-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap Example</title>
+  <title>Don Cousar's Portfolio</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <script src="js/log.js"></script>
 </head>
-<body>
+<body onload="LogIt();">
 
 <!-- Begin Nav -->
 <div id="navbar">
@@ -19,10 +31,8 @@
         </div>
         <ul class="nav navbar-nav">
             <li class="active"><a href="#" class="navLinks">Home</a></li>
-            <li><a href="#Education">Education</a></li>
             <li><a href="#Skills">Skills</a></li>
-            <li><a href="#Experience">Experience</a></li>
-            <li><a href="#Contact">Contact</a></li>
+            <li><a href="#Experience">Projects</a></li>
         </ul>
     </div>
     </nav>
@@ -35,95 +45,137 @@
         <div class="col-md-4" style="background-color:white;">
             <div class="container">
                 <img src="img/IMG_0593.jpg" class="img-circle" alt="Cinque Terre" width="304" height="236"> 
+                <br />
+                <br />
+            </div>
+            <div class="container">
+                <div class="w3-row" style="padding-left:30px;">
+                    <div class="w3-col w3-container m4 l3 w3-gray">
+                        <a href="#Contact"><img src="img/email-black-60.png" alt="Email" width="30" height="30"></a>
+                        <a href="https://www.facebook.com/don.cousar.9"><img src="img/facebook-black-60.png" alt="Facebook" width="30" height="30"></a>
+                        <a href="https://www.linkedin.com/in/donald-cousar-190484ab"><img src="img/linkedin-black-60.png" alt="LinkedIn" width="30" height="30"></a>
+                        <a href="https://github.com/drcousar?tab=repositories"><img src="img/GitHub-Logo.png" alt="Github Repo" width="30"></a>
+                    </div>  
+                </div>
             </div>
         </div>
-        <div id="Home" class="col-md-6" style="background-color:white;"><h2>About Don</h2>
+        <div id="Home" class="col-md-6 general"><h2>About Don</h2><br />
         <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Varius quam quisque id diam vel quam elementum pulvinar etiam. Risus feugiat in ante metus dictum at tempor. Dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim. Accumsan sit amet nulla facilisi morbi tempus. Vulputate mi sit amet mauris commodo quis imperdiet massa tincidunt. Metus dictum at tempor commodo. Vestibulum lectus mauris ultrices eros in. Eget magna fermentum iaculis eu non diam phasellus vestibulum. Eu non diam phasellus vestibulum lorem sed risus ultricies. Adipiscing enim eu turpis egestas pretium aenean pharetra magna. Leo a diam sollicitudin tempor id eu nisl nunc. Volutpat lacus laoreet non curabitur. Scelerisque viverra mauris in aliquam sem fringilla ut.
-
-Maecenas ultricies mi eget mauris pharetra. Et sollicitudin ac orci phasellus. Ligula ullamcorper malesuada proin libero nunc consequat interdum varius sit. Quis varius quam quisque id diam vel. Lobortis mattis aliquam faucibus purus in massa tempor nec. Enim nulla aliquet porttitor lacus luctus accumsan tortor posuere. Eget est lorem ipsum dolor sit amet. Neque laoreet suspendisse interdum consectetur. Lectus proin nibh nisl condimentum id venenatis a. Pellentesque massa placerat duis ultricies lacus sed. Nulla facilisi morbi tempus iaculis. Augue neque gravida in fermentum et sollicitudin ac orci. Lorem sed risus ultricies tristique nulla. Et molestie ac feugiat sed lectus vestibulum mattis ullamcorper. Laoreet non curabitur gravida arcu ac tortor dignissim convallis aenean. Sed tempus urna et pharetra. Nulla aliquet enim tortor at auctor urna. Cursus sit amet dictum sit amet justo.
-
-Fermentum odio eu feugiat pretium nibh ipsum consequat nisl vel. Sollicitudin tempor id eu nisl nunc mi ipsum. Pulvinar elementum integer enim neque volutpat ac tincidunt vitae. Ac odio tempor orci dapibus ultrices in. Pulvinar mattis nunc sed blandit. Tincidunt lobortis feugiat vivamus at. Sagittis id consectetur purus ut. Et netus et malesuada fames ac turpis. Ac turpis egestas sed tempus urna et pharetra pharetra. Sagittis nisl rhoncus mattis rhoncus urna. Vivamus at augue eget arcu dictum varius. Lorem ipsum dolor sit amet consectetur adipiscing elit.
-
-Sollicitudin tempor id eu nisl nunc mi ipsum faucibus. Morbi blandit cursus risus at ultrices mi tempus imperdiet. Tincidunt augue interdum velit euismod in. Vel turpis nunc eget lorem dolor sed. Vestibulum lectus mauris ultrices eros. Faucibus scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam. Nisl condimentum id venenatis a condimentum. Etiam erat velit scelerisque in dictum non consectetur a erat. Etiam erat velit scelerisque in dictum non consectetur. Morbi enim nunc faucibus a pellentesque sit. Sit amet consectetur adipiscing elit duis tristique sollicitudin nibh sit. Pellentesque elit eget gravida cum sociis natoque penatibus. Pharetra sit amet aliquam id diam maecenas ultricies mi eget.
-
-Ullamcorper malesuada proin libero nunc consequat. Enim lobortis scelerisque fermentum dui faucibus in ornare quam viverra. Amet nulla facilisi morbi tempus iaculis urna id volutpat. Feugiat in fermentum posuere urna nec. Tempus egestas sed sed risus pretium quam. Duis ultricies lacus sed turpis tincidunt id aliquet risus. Risus in hendrerit gravida rutrum quisque non. Nec feugiat nisl pretium fusce id. Aliquet eget sit amet tellus cras. Condimentum id venenatis a condimentum vitae sapien pellentesque habitant. Et molestie ac feugiat sed lectus. Bibendum arcu vitae elementum curabitur vitae nunc. Etiam erat velit scelerisque in dictum non consectetur a erat. Commodo viverra maecenas accumsan lacus vel facilisis volutpat. Ullamcorper morbi tincidunt ornare massa eget egestas purus. Proin libero nunc consequat interdum varius sit amet mattis.
+           Welcome to my personal web page.  Take a moment and browse around to learn more about me.
         </p>
+        <br />
+        <p>
+I am currently a Bellevue University student working on my Bachelors in FULL STACK Web Development.  I am currently a 
+Software Solutions Architect at one of the largest telecommunications companies on the Fortune 500 list, however I prefer drawing up solutions,
+leading a team of developers, and most importantly joining in on the work.  My goal is to contract my services, knowledge and experience to
+companies that desire to reach a higher level in software product releases.  Bellevue's FULL STACK Web Development cirriculum provides the perfect 
+education I desire. 
+
+        </p>
+<br /><br />
         <a href="#navbar">Back to Top</a>
-<br \><br \>
+<br /><br />
       </div>
     </div>
 <!-- End About Don Row -->
 
-<!-- Begin Education Row -->
-    <div class="row">
-        <div class="col-md-4" style="background-color:white;">
-            <div class="container">
-                
-            </div>
-        </div>
-        <div id="Education" class="col-md-6" style="background-color:white;"><h2>Education</h2>
-    <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Varius quam quisque id diam vel quam elementum pulvinar etiam. Risus feugiat in ante metus dictum at tempor. Dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim. Accumsan sit amet nulla facilisi morbi tempus. Vulputate mi sit amet mauris commodo quis imperdiet massa tincidunt. Metus dictum at tempor commodo. Vestibulum lectus mauris ultrices eros in. Eget magna fermentum iaculis eu non diam phasellus vestibulum. Eu non diam phasellus vestibulum lorem sed risus ultricies. Adipiscing enim eu turpis egestas pretium aenean pharetra magna. Leo a diam sollicitudin tempor id eu nisl nunc. Volutpat lacus laoreet non curabitur. Scelerisque viverra mauris in aliquam sem fringilla ut. Maecenas ultricies mi eget mauris pharetra. Et sollicitudin ac orci phasellus. Ligula ullamcorper malesuada proin libero nunc consequat interdum varius sit. Quis varius quam quisque id diam vel. Lobortis mattis aliquam faucibus purus in massa tempor nec. Enim nulla aliquet porttitor lacus luctus accumsan tortor posuere. Eget est lorem ipsum dolor sit amet. Neque laoreet suspendisse interdum consectetur. Lectus proin nibh nisl condimentum id venenatis a. Pellentesque massa placerat duis ultricies lacus sed. Nulla facilisi morbi tempus iaculis. Augue neque gravida in fermentum et sollicitudin ac orci. Lorem sed risus ultricies tristique nulla. Et molestie ac feugiat sed lectus vestibulum mattis ullamcorper. Laoreet non curabitur gravida arcu ac tortor dignissim convallis aenean. Sed tempus urna et pharetra. Nulla aliquet enim tortor at auctor urna. Cursus sit amet dictum sit amet justo. Fermentum odio eu feugiat pretium nibh ipsum consequat nisl vel. Sollicitudin tempor id eu nisl nunc mi ipsum. Pulvinar elementum integer enim neque volutpat ac tincidunt vitae. Ac odio tempor orci dapibus ultrices in. Pulvinar mattis nunc sed blandit. Tincidunt lobortis feugiat vivamus at. Sagittis id consectetur purus ut. Et netus et malesuada fames ac turpis. Ac turpis egestas sed tempus urna et pharetra pharetra. Sagittis nisl rhoncus mattis rhoncus urna. Vivamus at augue eget arcu dictum varius. Lorem ipsum dolor sit amet consectetur adipiscing elit. Sollicitudin tempor id eu nisl nunc mi ipsum faucibus. Morbi blandit cursus risus at ultrices mi tempus imperdiet. Tincidunt augue interdum velit euismod in. Vel turpis nunc eget lorem dolor sed. Vestibulum lectus mauris ultrices eros. Faucibus scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam. Nisl condimentum id venenatis a condimentum. Etiam erat velit scelerisque in dictum non consectetur a erat. Etiam erat velit scelerisque in dictum non consectetur. Morbi enim nunc faucibus a pellentesque sit. Sit amet consectetur adipiscing elit duis tristique sollicitudin nibh sit. Pellentesque elit eget gravida cum sociis natoque penatibus. Pharetra sit amet aliquam id diam maecenas ultricies mi eget. Ullamcorper malesuada proin libero nunc consequat. Enim lobortis scelerisque fermentum dui faucibus in ornare quam viverra. Amet nulla facilisi morbi tempus iaculis urna id volutpat. Feugiat in fermentum posuere urna nec. Tempus egestas sed sed risus pretium quam. Duis ultricies lacus sed turpis tincidunt id aliquet risus. Risus in hendrerit gravida rutrum quisque non. Nec feugiat nisl pretium fusce id. Aliquet eget sit amet tellus cras. Condimentum id venenatis a condimentum vitae sapien pellentesque habitant. Et molestie ac feugiat sed lectus. Bibendum arcu vitae elementum curabitur vitae nunc. Etiam erat velit scelerisque in dictum non consectetur a erat. Commodo viverra maecenas accumsan lacus vel facilisis volutpat. Ullamcorper morbi tincidunt ornare massa eget egestas purus. Proin libero nunc consequat interdum varius sit amet mattis. 
-    </p>
-    <a href="#navbar">Back to Top</a>
-<br \><br \>
-        </div>
-    </div>
-</div>
-<!-- End Education Row -->
-
 <!-- Begin Skills Row -->
 <div class="row">
-    <div class="col-md-4" style="background-color:white;">
+    <div class="col-md-4 general">
         <div class="container">
             
         </div>
     </div>
-    <div id="Skills" class="col-md-6" style="background-color:white;"><h2>Skills</h2>
-<p>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Varius quam quisque id diam vel quam elementum pulvinar etiam. Risus feugiat in ante metus dictum at tempor. Dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim. Accumsan sit amet nulla facilisi morbi tempus. Vulputate mi sit amet mauris commodo quis imperdiet massa tincidunt. Metus dictum at tempor commodo. Vestibulum lectus mauris ultrices eros in. Eget magna fermentum iaculis eu non diam phasellus vestibulum. Eu non diam phasellus vestibulum lorem sed risus ultricies. Adipiscing enim eu turpis egestas pretium aenean pharetra magna. Leo a diam sollicitudin tempor id eu nisl nunc. Volutpat lacus laoreet non curabitur. Scelerisque viverra mauris in aliquam sem fringilla ut. Maecenas ultricies mi eget mauris pharetra. Et sollicitudin ac orci phasellus. Ligula ullamcorper malesuada proin libero nunc consequat interdum varius sit. Quis varius quam quisque id diam vel. Lobortis mattis aliquam faucibus purus in massa tempor nec. Enim nulla aliquet porttitor lacus luctus accumsan tortor posuere. Eget est lorem ipsum dolor sit amet. Neque laoreet suspendisse interdum consectetur. Lectus proin nibh nisl condimentum id venenatis a. Pellentesque massa placerat duis ultricies lacus sed. Nulla facilisi morbi tempus iaculis. Augue neque gravida in fermentum et sollicitudin ac orci. Lorem sed risus ultricies tristique nulla. Et molestie ac feugiat sed lectus vestibulum mattis ullamcorper. Laoreet non curabitur gravida arcu ac tortor dignissim convallis aenean. Sed tempus urna et pharetra. Nulla aliquet enim tortor at auctor urna. Cursus sit amet dictum sit amet justo. Fermentum odio eu feugiat pretium nibh ipsum consequat nisl vel. Sollicitudin tempor id eu nisl nunc mi ipsum. Pulvinar elementum integer enim neque volutpat ac tincidunt vitae. Ac odio tempor orci dapibus ultrices in. Pulvinar mattis nunc sed blandit. Tincidunt lobortis feugiat vivamus at. Sagittis id consectetur purus ut. Et netus et malesuada fames ac turpis. Ac turpis egestas sed tempus urna et pharetra pharetra. Sagittis nisl rhoncus mattis rhoncus urna. Vivamus at augue eget arcu dictum varius. Lorem ipsum dolor sit amet consectetur adipiscing elit. Sollicitudin tempor id eu nisl nunc mi ipsum faucibus. Morbi blandit cursus risus at ultrices mi tempus imperdiet. Tincidunt augue interdum velit euismod in. Vel turpis nunc eget lorem dolor sed. Vestibulum lectus mauris ultrices eros. Faucibus scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam. Nisl condimentum id venenatis a condimentum. Etiam erat velit scelerisque in dictum non consectetur a erat. Etiam erat velit scelerisque in dictum non consectetur. Morbi enim nunc faucibus a pellentesque sit. Sit amet consectetur adipiscing elit duis tristique sollicitudin nibh sit. Pellentesque elit eget gravida cum sociis natoque penatibus. Pharetra sit amet aliquam id diam maecenas ultricies mi eget. Ullamcorper malesuada proin libero nunc consequat. Enim lobortis scelerisque fermentum dui faucibus in ornare quam viverra. Amet nulla facilisi morbi tempus iaculis urna id volutpat. Feugiat in fermentum posuere urna nec. Tempus egestas sed sed risus pretium quam. Duis ultricies lacus sed turpis tincidunt id aliquet risus. Risus in hendrerit gravida rutrum quisque non. Nec feugiat nisl pretium fusce id. Aliquet eget sit amet tellus cras. Condimentum id venenatis a condimentum vitae sapien pellentesque habitant. Et molestie ac feugiat sed lectus. Bibendum arcu vitae elementum curabitur vitae nunc. Etiam erat velit scelerisque in dictum non consectetur a erat. Commodo viverra maecenas accumsan lacus vel facilisis volutpat. Ullamcorper morbi tincidunt ornare massa eget egestas purus. Proin libero nunc consequat interdum varius sit amet mattis. 
-</p>
+    <div id="Skills" class="col-md-6 general"><h2>Skills</h2><br />
+<table>
+    <tr>
+        <td>
+            <ul>
+                <li>C#.NET</li>
+                <li>VB.NET</li>
+                <li>ASP.NET</li>
+                <li>JavaScript</li>
+                <li>App Script</li>
+                <li>Java</li>
+            </ul>
+        </td>
+        <td>
+            <ul>
+                <li>MSSQL</li>
+                <li>Oracle</li>
+                <li>MySql</li>
+                <li>PostgreSQL</li>
+                <li>SSIS</li>
+                <li>PHP</li>
+            </ul>
+        </td>
+        <td>
+            <ul>
+                <li>SOAP</li>
+                <li>REST</li>
+                <li>AWS</li>
+                <li>Jenkins</li>
+                <li>Ansible</li>
+                <li>LDAP</li>
+            </ul>
+        </td>
+        <td>
+            <ul>
+                <li>PERL</li>
+                <li>Swift</li>
+                <li>PowerShell</li>
+                <li>Python</li>
+                <li>C++</li>
+                <li>Cordova</li>
+            </ul>
+        </td>
+        <td>
+            <ul>
+                <li>Android Studio</li>
+                <li>XCode</li>
+                <li>Visual Studio</li>
+                <li>Eclipse</li>
+                <li>Unix/Linux OS</li>
+                <li>Windows</li>
+            </ul>
+        </td>
+    </tr>
+</table>
+<br /><br />
 <a href="#navbar">Back to Top</a>
-<br \><br \>
+<br /><br />
     </div>
 </div>
 <!-- End Skills Row -->
 
 <!-- Begin Experience Row -->
 <div class="row">
-    <div class="col-md-4" style="background-color:white;">
+    <div class="col-md-4 general">
         <div class="container">
             
         </div>
     </div>
-    <div id="Experience" class="col-md-6" style="background-color:white;"><h2>Experience</h2>
-<p>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Varius quam quisque id diam vel quam elementum pulvinar etiam. Risus feugiat in ante metus dictum at tempor. Dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim. Accumsan sit amet nulla facilisi morbi tempus. Vulputate mi sit amet mauris commodo quis imperdiet massa tincidunt. Metus dictum at tempor commodo. Vestibulum lectus mauris ultrices eros in. Eget magna fermentum iaculis eu non diam phasellus vestibulum. Eu non diam phasellus vestibulum lorem sed risus ultricies. Adipiscing enim eu turpis egestas pretium aenean pharetra magna. Leo a diam sollicitudin tempor id eu nisl nunc. Volutpat lacus laoreet non curabitur. Scelerisque viverra mauris in aliquam sem fringilla ut. Maecenas ultricies mi eget mauris pharetra. Et sollicitudin ac orci phasellus. Ligula ullamcorper malesuada proin libero nunc consequat interdum varius sit. Quis varius quam quisque id diam vel. Lobortis mattis aliquam faucibus purus in massa tempor nec. Enim nulla aliquet porttitor lacus luctus accumsan tortor posuere. Eget est lorem ipsum dolor sit amet. Neque laoreet suspendisse interdum consectetur. Lectus proin nibh nisl condimentum id venenatis a. Pellentesque massa placerat duis ultricies lacus sed. Nulla facilisi morbi tempus iaculis. Augue neque gravida in fermentum et sollicitudin ac orci. Lorem sed risus ultricies tristique nulla. Et molestie ac feugiat sed lectus vestibulum mattis ullamcorper. Laoreet non curabitur gravida arcu ac tortor dignissim convallis aenean. Sed tempus urna et pharetra. Nulla aliquet enim tortor at auctor urna. Cursus sit amet dictum sit amet justo. Fermentum odio eu feugiat pretium nibh ipsum consequat nisl vel. Sollicitudin tempor id eu nisl nunc mi ipsum. Pulvinar elementum integer enim neque volutpat ac tincidunt vitae. Ac odio tempor orci dapibus ultrices in. Pulvinar mattis nunc sed blandit. Tincidunt lobortis feugiat vivamus at. Sagittis id consectetur purus ut. Et netus et malesuada fames ac turpis. Ac turpis egestas sed tempus urna et pharetra pharetra. Sagittis nisl rhoncus mattis rhoncus urna. Vivamus at augue eget arcu dictum varius. Lorem ipsum dolor sit amet consectetur adipiscing elit. Sollicitudin tempor id eu nisl nunc mi ipsum faucibus. Morbi blandit cursus risus at ultrices mi tempus imperdiet. Tincidunt augue interdum velit euismod in. Vel turpis nunc eget lorem dolor sed. Vestibulum lectus mauris ultrices eros. Faucibus scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam. Nisl condimentum id venenatis a condimentum. Etiam erat velit scelerisque in dictum non consectetur a erat. Etiam erat velit scelerisque in dictum non consectetur. Morbi enim nunc faucibus a pellentesque sit. Sit amet consectetur adipiscing elit duis tristique sollicitudin nibh sit. Pellentesque elit eget gravida cum sociis natoque penatibus. Pharetra sit amet aliquam id diam maecenas ultricies mi eget. Ullamcorper malesuada proin libero nunc consequat. Enim lobortis scelerisque fermentum dui faucibus in ornare quam viverra. Amet nulla facilisi morbi tempus iaculis urna id volutpat. Feugiat in fermentum posuere urna nec. Tempus egestas sed sed risus pretium quam. Duis ultricies lacus sed turpis tincidunt id aliquet risus. Risus in hendrerit gravida rutrum quisque non. Nec feugiat nisl pretium fusce id. Aliquet eget sit amet tellus cras. Condimentum id venenatis a condimentum vitae sapien pellentesque habitant. Et molestie ac feugiat sed lectus. Bibendum arcu vitae elementum curabitur vitae nunc. Etiam erat velit scelerisque in dictum non consectetur a erat. Commodo viverra maecenas accumsan lacus vel facilisis volutpat. Ullamcorper morbi tincidunt ornare massa eget egestas purus. Proin libero nunc consequat interdum varius sit amet mattis. 
-</p>
+    <div id="Experience" class="col-md-6 general"><h2>Recent Key Projects</h2><br />
+
+<table>
+    <tr>
+        <td>
+            <ul>
+                <li>Developed a self management tool for mobile device administration of devices on GOOD MDM</li>
+                <li>Developed a self subscription tool for BYOD (Bring Your Own Device) devices on GOOD MDM</li>
+                <li>Developed a registration tool for provisioning email accounts</li>
+                <li>Developed a mobile application that scans retail SKUs and 3rd party hardware for inventory management</li>
+                <li>Architected a solution for signing iOS applications</li>
+                <li>Created multiple Ansible scripts used to deploy IIS server configurations and buildouts using Jenkins</li>
+            </ul>
+        </td>
+    </tr>
+</table>
+<br /><br />
 <a href="#navbar">Back to Top</a>
-<br \><br \>
+<br /><br />
     </div>
 </div>
 <!-- End Experience Row -->
-
-<!-- Begin Contact Row -->
-<div class="row">
-    <div class="col-md-4" style="background-color:white;">
-        <div class="container">
-            
-        </div>
-    </div>
-    <div id="Contact" class="col-md-6" style="background-color:white;"><h2>Contact</h2>
-<p>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Varius quam quisque id diam vel quam elementum pulvinar etiam. Risus feugiat in ante metus dictum at tempor. Dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim. Accumsan sit amet nulla facilisi morbi tempus. Vulputate mi sit amet mauris commodo quis imperdiet massa tincidunt. Metus dictum at tempor commodo. Vestibulum lectus mauris ultrices eros in. Eget magna fermentum iaculis eu non diam phasellus vestibulum. Eu non diam phasellus vestibulum lorem sed risus ultricies. Adipiscing enim eu turpis egestas pretium aenean pharetra magna. Leo a diam sollicitudin tempor id eu nisl nunc. Volutpat lacus laoreet non curabitur. Scelerisque viverra mauris in aliquam sem fringilla ut. Maecenas ultricies mi eget mauris pharetra. Et sollicitudin ac orci phasellus. Ligula ullamcorper malesuada proin libero nunc consequat interdum varius sit. Quis varius quam quisque id diam vel. Lobortis mattis aliquam faucibus purus in massa tempor nec. Enim nulla aliquet porttitor lacus luctus accumsan tortor posuere. Eget est lorem ipsum dolor sit amet. Neque laoreet suspendisse interdum consectetur. Lectus proin nibh nisl condimentum id venenatis a. Pellentesque massa placerat duis ultricies lacus sed. Nulla facilisi morbi tempus iaculis. Augue neque gravida in fermentum et sollicitudin ac orci. Lorem sed risus ultricies tristique nulla. Et molestie ac feugiat sed lectus vestibulum mattis ullamcorper. Laoreet non curabitur gravida arcu ac tortor dignissim convallis aenean. Sed tempus urna et pharetra. Nulla aliquet enim tortor at auctor urna. Cursus sit amet dictum sit amet justo. Fermentum odio eu feugiat pretium nibh ipsum consequat nisl vel. Sollicitudin tempor id eu nisl nunc mi ipsum. Pulvinar elementum integer enim neque volutpat ac tincidunt vitae. Ac odio tempor orci dapibus ultrices in. Pulvinar mattis nunc sed blandit. Tincidunt lobortis feugiat vivamus at. Sagittis id consectetur purus ut. Et netus et malesuada fames ac turpis. Ac turpis egestas sed tempus urna et pharetra pharetra. Sagittis nisl rhoncus mattis rhoncus urna. Vivamus at augue eget arcu dictum varius. Lorem ipsum dolor sit amet consectetur adipiscing elit. Sollicitudin tempor id eu nisl nunc mi ipsum faucibus. Morbi blandit cursus risus at ultrices mi tempus imperdiet. Tincidunt augue interdum velit euismod in. Vel turpis nunc eget lorem dolor sed. Vestibulum lectus mauris ultrices eros. Faucibus scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam. Nisl condimentum id venenatis a condimentum. Etiam erat velit scelerisque in dictum non consectetur a erat. Etiam erat velit scelerisque in dictum non consectetur. Morbi enim nunc faucibus a pellentesque sit. Sit amet consectetur adipiscing elit duis tristique sollicitudin nibh sit. Pellentesque elit eget gravida cum sociis natoque penatibus. Pharetra sit amet aliquam id diam maecenas ultricies mi eget. Ullamcorper malesuada proin libero nunc consequat. Enim lobortis scelerisque fermentum dui faucibus in ornare quam viverra. Amet nulla facilisi morbi tempus iaculis urna id volutpat. Feugiat in fermentum posuere urna nec. Tempus egestas sed sed risus pretium quam. Duis ultricies lacus sed turpis tincidunt id aliquet risus. Risus in hendrerit gravida rutrum quisque non. Nec feugiat nisl pretium fusce id. Aliquet eget sit amet tellus cras. Condimentum id venenatis a condimentum vitae sapien pellentesque habitant. Et molestie ac feugiat sed lectus. Bibendum arcu vitae elementum curabitur vitae nunc. Etiam erat velit scelerisque in dictum non consectetur a erat. Commodo viverra maecenas accumsan lacus vel facilisis volutpat. Ullamcorper morbi tincidunt ornare massa eget egestas purus. Proin libero nunc consequat interdum varius sit amet mattis. 
-</p>
-<a href="#navbar">Back to Top</a>
-<br \><br \>
-    </div>
-       
-</div>
-<!-- End Contact Row -->
-
 </body>
 </html>
