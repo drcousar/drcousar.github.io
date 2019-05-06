@@ -1,4 +1,11 @@
-
+/*
+============================================
+; Title:  Log It 
+; Author: Don Cousar
+; Date:   24 Feb 2019
+; Description: Portfolio Site Logger
+;===========================================
+*/
 function LogIt() {
-    console.log("An entry has been submitted");
+    console.log("Portfolio Page has been visited");
 }
